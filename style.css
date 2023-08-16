@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #0a4d68;
+}
+
+.container {
+  width: 40rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tasks {
+  display: flex;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+#taskInput {
+  flex: 75%;
+  margin-right: 20px;
+  height: 30px;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+button {
+  background: #a5d7e8;
+  color: #0b2447;
+  border-radius: 10px;
+}
+
+.task {
+  display: grid;
+  grid-template-columns: 8fr 2fr 2fr;
+  gap: 0.2em;
+  align-items: center;
+  padding: 10px;
+  background-color: #ffeaea;
+  border-radius: 10px;
+  margin: 10px;
+  color: black;
+}
+
+.dltBtn,
+.edtBtn {
+  background: #a5d7e8;
+  padding: 5px;
+  color: #0b2447;
+  border-radius: 10px;
+  margin: 0px 5px;
+}
+
+.dltBtn {
+  background-color: red;
+  color: white;
+}
+
+.edtBtn {
+  background-color: green;
+  color: white;
+}
+
+#addBtn {
+  padding: 5px;
+  margin: 0px 5px;
+}
